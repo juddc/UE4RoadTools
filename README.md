@@ -28,3 +28,17 @@ folder.
 
 You'll need to right-click your .uproject file, click "Generate Visual Studio project files", and rebuild
 your project after putting the files in place.
+
+
+Creating and Manipulating Road Actors
+-------------------------------------
+To create a Road actor, simply drag one in from the Class Browser or Modes panel. You will see a single
+spline with two points. To make it show a mesh, you'll need to add a new Segment. In the details pane,
+under Road, hit the + button next to Segments to add a new Segment. Now you should see a mesh. Click
+one of the spline points, you should be able to move it around with the translate tool.
+
+To add additional spline points, select one of the points, make sure you're on the Translate tool, and
+alt-drag it out. You'll need to create an additional segment to see a mesh covering that part.
+
+Segments hold data for the meshes between each pair of spline points. You can edit the spline itself using
+the translate/rotate/scale tools, plus tweak each segment by changing the settings for each one.
