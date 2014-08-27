@@ -5,7 +5,7 @@
 	"Version" : 1,
 	"VersionName" : "0.1",
 	"CreatedBy" : "Judd Cohen",
-	"CreatedByURL" : "",
+	"CreatedByURL" : "https://github.com/juddc/UE4RoadTools",
 	"EngineVersion" : "4.4",
 	"Description" : "Tools for building roads and paths",
 	"Category" : "Rendering",
