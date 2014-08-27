@@ -1,0 +1,23 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "Road Tools",
+	"Version" : 1,
+	"VersionName" : "0.1",
+	"CreatedBy" : "Judd Cohen",
+	"CreatedByURL" : "",
+	"EngineVersion" : "4.4",
+	"Description" : "Tools for building roads and paths",
+	"Category" : "Rendering",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "RoadTools",
+			"Type" : "Runtime"
+		}
+	],
+
+	"CanContainContent" : true
+}
