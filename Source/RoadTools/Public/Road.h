@@ -45,7 +45,7 @@ struct FRoadSegment
 
 
 /**
-* 
+* A repeating mesh or meshes along a spline
 */
 UCLASS(HideCategories=(Activation, Spline, Input))
 class ARoad : public AActor
