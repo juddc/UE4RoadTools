@@ -27,6 +27,7 @@ ARoad::ARoad(const class FPostConstructInitializeProperties& PCIP)
 }
 
 
+#if WITH_EDITOR
 void ARoad::PostEditMove(bool bFinished)
 {
 	// this event is the only indication the spline component gives us that anything has changed,
@@ -37,6 +38,7 @@ void ARoad::PostEditMove(bool bFinished)
 	}
 	Super::PostEditMove(bFinished);
 }
+#endif
 
 
 void ARoad::OnConstruction(const FTransform& Transform)

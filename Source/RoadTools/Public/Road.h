@@ -77,8 +77,10 @@ class ARoad : public AActor
 	/** rebuild SplineMeshComponents on construction */
 	virtual void OnConstruction(const FTransform& transform) override;
 
+#if WITH_EDITOR
 	/** force OnConstruction to run again when the spline is edited */
 	virtual void PostEditMove(bool bFinished) override;
+#endif
 
 	FVector GetLocalTangentAtDistanceAlongSpline(float Distance);
 
